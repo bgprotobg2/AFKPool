@@ -1,0 +1,38 @@
+name: AFK
+version: '1.0'
+main: bgprotobg.net.afk.AFK
+api-version: '1.20'
+
+commands:
+  shards:
+    description: Main command for managing shards and AFK zones.
+    usage: /shards <command>
+
+permissions:
+  shards.use:
+    description: Permission to use shards commands
+    default: true
+  shards.wand:
+    description: Permission to give an AFK wand
+    default: op
+  shards.complete:
+    description: Permission to complete an AFK zone selection
+    default: op
+  shards.cancel:
+    description: Permission to cancel an AFK zone selection
+    default: op
+  shards.give:
+    description: Permission to give shards to a player
+    default: op
+  shards.take:
+    description: Permission to take shards from a player
+    default: op
+  shards.balance:
+    description: Permission to check shard balance
+    default: true
+  shards.pay:
+    description: Permission to pay shards to another player
+    default: true
+  shards.shop:
+    description: Permission to open the shards shop
+    default: true

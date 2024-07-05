@@ -1,0 +1,32 @@
+shop:
+  items:
+    sword:
+      display-item: DIAMOND_SWORD
+      display-name: "&aEpic Sword"
+      lore:
+        - "&7This is an example sword."
+        - "&7It's really epic!"
+      price: 100
+      slot: 10
+      reward-commands:
+        - "give %player% diamond_sword 1"
+    chestplate:
+      display-item: DIAMOND_CHESTPLATE
+      display-name: "&aEpic Chestplate"
+      lore:
+        - "&7This is an example chestplate."
+        - "&7It's really strong!"
+      price: 150
+      slot: 12
+      reward-commands:
+        - "give %player% diamond_chestplate 1"
+    golden_apple:
+      display-item: GOLDEN_APPLE
+      display-name: "&aGolden Apple"
+      lore:
+        - "&7This is an example golden apple."
+        - "&7It's delicious!"
+      price: 50
+      slot: 14
+      reward-commands:
+        - "give %player% golden_apple 1"
